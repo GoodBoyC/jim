@@ -165,7 +165,6 @@ sys.stdout.write('\x1b[1;35m\x1b]2; {×} bff-2 by romz {×} \x07')
 
 #		crackmenu("").check_opsi()
 class Chinda():
-	
 	def buat_tgl(self):
 		global wak_
 		os.system("clear")
