@@ -101,8 +101,6 @@ def play_mpv(x):
 	try:os.popen("play-audio "+x)
 	except:pass
 
-def chinda():
-
 import uuid
 class menu:
 	def __init__(self):
@@ -275,7 +273,4 @@ class menu:
 				os.sys.exit()
 			os.sys.exit()
 			
-
-if __name__=="__main__":
-	chinda()
-	
+Main_().__vpn__()
