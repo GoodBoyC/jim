@@ -106,6 +106,7 @@ class menu:
 	def __init__(self):
 		os.system('clear')
 		self.mani()
+try:
 #		crackmenu("").check_opsi()
 	def buat_tgl(self):
 		global wak_
