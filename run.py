@@ -101,6 +101,8 @@ def play_mpv(x):
 	try:os.popen("play-audio "+x)
 	except:pass
 
+def chinda():
+
 import uuid
 class menu:
 	def __init__(self):
@@ -275,5 +277,5 @@ class menu:
 			
 
 if __name__=="__main__":
-	jalan(z)
+	chinda()
 	
