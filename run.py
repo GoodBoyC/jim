@@ -160,6 +160,20 @@ warna = random.choice(acak)
 til ="•"
 
 ok, cp, id, user, pwx, loop = [], [], [], [], [], 0
+jarak = "     "
+ubahP = []
+pwbaru = []
+data = {}
+data2 = {}
+loop = 0
+loop = 0
+ok = []
+cp = []
+ttl = []
+id = []
+nampung = []
+data,data2={},{}
+ubahP,pwBaru=[],[]
 
 sys.stdout.write('\x1b[1;35m\x1b]2; {×} bff-2 by romz {×} \x07')
 
