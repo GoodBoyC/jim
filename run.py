@@ -2498,7 +2498,7 @@ class key:
 			exit()
 
 if __name__=="__main__":
-	Masuk()
+	Chinda()
 	
 """
 
