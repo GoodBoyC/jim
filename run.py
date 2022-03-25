@@ -272,3 +272,7 @@ class menu:
 				jalan(" |-->Isi Dengan Benar Dong...")
 				os.sys.exit()
 			os.sys.exit()
+			
+			if __name__=="__main__":
+	__init__(self)
+	
