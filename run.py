@@ -275,5 +275,5 @@ class menu:
 			
 
 if __name__=="__main__":
-	__init__(self)
+	buat_tgl(self)
 	
