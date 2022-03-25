@@ -164,7 +164,7 @@ ok, cp, id, user, pwx, loop = [], [], [], [], [], 0
 sys.stdout.write('\x1b[1;35m\x1b]2; {×} bff-2 by romz {×} \x07')
 
 #####  BAGIAN DEF ATAU CLASS #####
-def jalan(z):
+def chinda:
 	for e in z + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.009)
 def play_mpv(x):
 	try:os.popen("play-audio "+x)
@@ -2508,7 +2508,7 @@ class key:
 			exit()
 
 if __name__=="__main__":
-	Masuk()
+	chinda()
 	
 """
 
