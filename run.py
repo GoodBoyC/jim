@@ -275,5 +275,5 @@ try:
 			os.sys.exit()
 			
 			
-if __name__=="__main__":
+finally __name__=="__main__":
 	menu
