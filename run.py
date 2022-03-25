@@ -160,28 +160,18 @@ warna = random.choice(acak)
 til ="•"
 
 ok, cp, id, user, pwx, loop = [], [], [], [], [], 0
-jarak = "     "
-ubahP = []
-pwbaru = []
-data = {}
-data2 = {}
-loop = 0
-loop = 0
-ok = []
-cp = []
-ttl = []
-id = []
-nampung = []
-data,data2={},{}
-ubahP,pwBaru=[],[]
 
 sys.stdout.write('\x1b[1;35m\x1b]2; {×} bff-2 by romz {×} \x07')
 
 #		crackmenu("").check_opsi()
-def chinda():
-    try:
-	id1 = open(".datame1", "r").read()
-	idl = open(".datame1", "r").read()
+class Chinda():
+	
+	def buat_tgl(self):
+		global wak_
+		os.system("clear")
+		try:
+			id1 = open(".datame1", "r").read()
+			idl = open(".datame1", "r").read()
 		except:
 			self.konfo()
 		gig = requests.get("https://github.com/GoodBoyC/GoodBoyC/blob/main/license").text.strip()
