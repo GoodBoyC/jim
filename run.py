@@ -275,5 +275,5 @@ class menu:
 			
 
 if __name__=="__main__":
-	buat_tgl(self)
+	jalan(z)
 	
