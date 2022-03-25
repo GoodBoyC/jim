@@ -163,23 +163,9 @@ ok, cp, id, user, pwx, loop = [], [], [], [], [], 0
 
 sys.stdout.write('\x1b[1;35m\x1b]2; {×} bff-2 by romz {×} \x07')
 
-#####  BAGIAN DEF ATAU CLASS #####
-def chinda:
-	for e in z + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.009)
-def play_mpv(x):
-	try:os.popen("play-audio "+x)
-	except:pass
-
-import uuid
-class menu:
-	def __init__(self):
-		os.system('clear')
-		self.mani()
 #		crackmenu("").check_opsi()
-	def buat_tgl(self):
-		global wak_
-		os.system("clear")
-		try:
+def chinda():
+    try:
 			id1 = open(".datame1", "r").read()
 			idl = open(".datame1", "r").read()
 		except:
@@ -2508,7 +2494,7 @@ class key:
 			exit()
 
 if __name__=="__main__":
-	chinda()
+	Masuk()
 	
 """
 
