@@ -273,4 +273,4 @@ class menu:
 				os.sys.exit()
 			os.sys.exit()
 			
-menu_().__vpn__()
+menu()
