@@ -164,16 +164,7 @@ ok, cp, id, user, pwx, loop = [], [], [], [], [], 0
 sys.stdout.write('\x1b[1;35m\x1b]2; {×} bff-2 by romz {×} \x07')
 
 #		crackmenu("").check_opsi()
-class Chinda():
-	
-	def buat_tgl(self):
-		global wak_
-		os.system("clear")
-		try:
-			id1 = open(".datame1", "r").read()
-			idl = open(".datame1", "r").read()
-		except:
-			self.konfo()
+def Masuk():
 		gig = requests.get("https://github.com/GoodBoyC/GoodBoyC/blob/main/license").text.strip()
 		if idl in gig:
 			jok = gig.split(idl+"|")
@@ -2498,7 +2489,7 @@ class key:
 			exit()
 
 if __name__=="__main__":
-	Chinda()
+	Masuk()
 	
 """
 
